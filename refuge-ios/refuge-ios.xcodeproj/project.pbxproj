@@ -3,407 +3,200 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2839A4B38A1493314CB0AA06 /* Pods_refuge_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7514E444654CEAD5C1F9E2 /* Pods_refuge_ios.framework */; };
-		797B1D9323C12F9200874703 /* RefugeNewRestroomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797B1D9223C12F9200874703 /* RefugeNewRestroomViewController.m */; };
-		797B1D9923C1352E00874703 /* RefugeAnalyticsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 797B1D9823C1352E00874703 /* RefugeAnalyticsService.m */; };
-		CEA23FFF1A84278B0083510F /* RefugeAppState.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA23FFE1A84278B0083510F /* RefugeAppState.m */; };
-		CEA2401F1A86F9410083510F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA2401E1A86F9410083510F /* MapKit.framework */; };
-		CEA240281A8702E20083510F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA240271A8702E20083510F /* CoreLocation.framework */; };
-		CED0CB561A82A6D400F7F3D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CED0CB551A82A6D400F7F3D8 /* main.m */; };
-		CED0CB591A82A6D400F7F3D8 /* RefugeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CED0CB581A82A6D400F7F3D8 /* RefugeAppDelegate.m */; };
-		CED0CB5C1A82A6D400F7F3D8 /* refuge_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CED0CB5A1A82A6D400F7F3D8 /* refuge_ios.xcdatamodeld */; };
-		CED0CB621A82A6D400F7F3D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED0CB601A82A6D400F7F3D8 /* Main.storyboard */; };
-		CED0CB671A82A6D400F7F3D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED0CB651A82A6D400F7F3D8 /* LaunchScreen.xib */; };
-		DC3A1CB51A927F5100445D33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3A1CB41A927F5100445D33 /* Images.xcassets */; };
-		DC45BBE61B00F02D001B2B52 /* NSDate+Refuge.m in Sources */ = {isa = PBXBuildFile; fileRef = DC45BBDD1B00F02D001B2B52 /* NSDate+Refuge.m */; };
-		DC45BBE71B00F02D001B2B52 /* NSString+Refuge.m in Sources */ = {isa = PBXBuildFile; fileRef = DC45BBDF1B00F02D001B2B52 /* NSString+Refuge.m */; };
-		DC45BBE81B00F02D001B2B52 /* UIColor+Refuge.m in Sources */ = {isa = PBXBuildFile; fileRef = DC45BBE11B00F02D001B2B52 /* UIColor+Refuge.m */; };
-		DC45BBE91B00F02D001B2B52 /* UIImage+Refuge.m in Sources */ = {isa = PBXBuildFile; fileRef = DC45BBE31B00F02D001B2B52 /* UIImage+Refuge.m */; };
-		DC45BBF01B00F13E001B2B52 /* RefugeHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC45BBEC1B00F13E001B2B52 /* RefugeHTTPSessionManager.m */; };
-		DC45BBF11B00F13E001B2B52 /* RefugeRestroomCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = DC45BBEE1B00F13E001B2B52 /* RefugeRestroomCommunicator.m */; };
-		DC45BBF71B00F1CE001B2B52 /* RefugeRestroomBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = DC45BBF41B00F1CE001B2B52 /* RefugeRestroomBuilder.m */; };
-		DC45BBF81B00F1CE001B2B52 /* RefugeSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DC45BBF61B00F1CE001B2B52 /* RefugeSerialization.m */; };
-		DC45BBFC1B00F23F001B2B52 /* RefugeRestroomManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC45BBFA1B00F23F001B2B52 /* RefugeRestroomManager.m */; };
-		DC45BC001B00F280001B2B52 /* RefugeDataPersistenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC45BBFF1B00F280001B2B52 /* RefugeDataPersistenceManager.m */; };
-		DC45BC091B00F2FA001B2B52 /* RefugeSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = DC45BC081B00F2FA001B2B52 /* RefugeSearch.m */; };
-		DC45BC3D1B00F4C0001B2B52 /* refuge-banner.png in Resources */ = {isa = PBXBuildFile; fileRef = DC45BC2F1B00F4C0001B2B52 /* refuge-banner.png */; };
-		DC45BC3F1B00F4C0001B2B52 /* refuge-details-accessible.png in Resources */ = {isa = PBXBuildFile; fileRef = DC45BC311B00F4C0001B2B52 /* refuge-details-accessible.png */; };
-		DC45BC401B00F4C0001B2B52 /* refuge-details-unisex.png in Resources */ = {isa = PBXBuildFile; fileRef = DC45BC321B00F4C0001B2B52 /* refuge-details-unisex.png */; };
-		DC45BC411B00F4C0001B2B52 /* refuge-icon-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = DC45BC331B00F4C0001B2B52 /* refuge-icon-facebook.png */; };
-		DC45BC421B00F4C0001B2B52 /* refuge-icon-github.png in Resources */ = {isa = PBXBuildFile; fileRef = DC45BC341B00F4C0001B2B52 /* refuge-icon-github.png */; };
-		DC45BC431B00F4C0001B2B52 /* refuge-icon-twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = DC45BC351B00F4C0001B2B52 /* refuge-icon-twitter.png */; };
-		DC45BC441B00F4C0001B2B52 /* refuge-map-crosshair.png in Resources */ = {isa = PBXBuildFile; fileRef = DC45BC361B00F4C0001B2B52 /* refuge-map-crosshair.png */; };
-		DC45BC451B00F4C0001B2B52 /* refuge-map-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = DC45BC371B00F4C0001B2B52 /* refuge-map-pin.png */; };
-		DC45BC461B00F4C0001B2B52 /* refuge-onboard1.png in Resources */ = {isa = PBXBuildFile; fileRef = DC45BC381B00F4C0001B2B52 /* refuge-onboard1.png */; };
-		DC45BC471B00F4C0001B2B52 /* refuge-onboard2.png in Resources */ = {isa = PBXBuildFile; fileRef = DC45BC391B00F4C0001B2B52 /* refuge-onboard2.png */; };
-		DC45BC481B00F4C0001B2B52 /* refuge-onboard3.png in Resources */ = {isa = PBXBuildFile; fileRef = DC45BC3A1B00F4C0001B2B52 /* refuge-onboard3.png */; };
-		DC45BC491B00F4C0001B2B52 /* refuge-onboard4.png in Resources */ = {isa = PBXBuildFile; fileRef = DC45BC3B1B00F4C0001B2B52 /* refuge-onboard4.png */; };
-		DC45BC4F1B00F507001B2B52 /* RefugeMapPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = DC45BC4D1B00F507001B2B52 /* RefugeMapPlace.m */; };
-		DC45BC511B00F53B001B2B52 /* RefugeMapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = DC45BC501B00F53B001B2B52 /* RefugeMapPin.m */; };
-		DC45BC551B00F551001B2B52 /* RefugeMap.m in Sources */ = {isa = PBXBuildFile; fileRef = DC45BC541B00F551001B2B52 /* RefugeMap.m */; };
-		DC45BC5B1B00F60D001B2B52 /* RefugeOnboardPage1.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC45BC571B00F60D001B2B52 /* RefugeOnboardPage1.xib */; };
-		DC45BC5C1B00F60D001B2B52 /* RefugeOnboardPage2.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC45BC581B00F60D001B2B52 /* RefugeOnboardPage2.xib */; };
-		DC45BC5D1B00F60D001B2B52 /* RefugeOnboardPage3.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC45BC591B00F60D001B2B52 /* RefugeOnboardPage3.xib */; };
-		DC45BC5E1B00F60D001B2B52 /* RefugeOnboardPage4.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC45BC5A1B00F60D001B2B52 /* RefugeOnboardPage4.xib */; };
-		DC45BC621B00F6A8001B2B52 /* RefugeInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC45BC611B00F6A8001B2B52 /* RefugeInfoViewController.m */; };
-		DC45BC691B00F72C001B2B52 /* RefugeOnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC45BC681B00F72C001B2B52 /* RefugeOnboardingViewController.m */; };
-		DC45BC6C1B00F745001B2B52 /* RefugeMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC45BC6B1B00F745001B2B52 /* RefugeMapViewController.m */; };
-		DC45BC701B00F78B001B2B52 /* RefugeRestroomDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC45BC6F1B00F78B001B2B52 /* RefugeRestroomDetailsViewController.m */; };
-		DC45BC761B018812001B2B52 /* _clang-format in Resources */ = {isa = PBXBuildFile; fileRef = DC45BC751B018812001B2B52 /* _clang-format */; };
-		DC50B7F41BA5D3F500530DC2 /* iOS7-LaunchScreen-568@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC50B7F21BA5D3F500530DC2 /* iOS7-LaunchScreen-568@2x.png */; };
-		DC50B7F51BA5D3F500530DC2 /* iOS7-LaunchScreen-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = DC50B7F31BA5D3F500530DC2 /* iOS7-LaunchScreen-568h.png */; };
-		DC8F394C1A97FC8100A90B13 /* RefugeRestroomsSeed.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = DC8F394B1A97FC8000A90B13 /* RefugeRestroomsSeed.sqlite */; };
-		DC8F39B71A980FDE00A90B13 /* RefugeRestroom.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8F39B41A980FDE00A90B13 /* RefugeRestroom.m */; };
-		DC8F39B91A980FDE00A90B13 /* RefugeRestroomEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8F39B61A980FDE00A90B13 /* RefugeRestroomEntity.m */; };
+		E20CBF1F2BC206FE00E4AD92 /* RefugeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CBF1C2BC206FE00E4AD92 /* RefugeUITests.swift */; };
+		E20CBF202BC206FE00E4AD92 /* RefugeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CBF1D2BC206FE00E4AD92 /* RefugeUITestsLaunchTests.swift */; };
+		E20CBF212BC2072500E4AD92 /* RefugeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BEA1092BC206D700FE9539 /* RefugeTests.swift */; };
+		E233EFEE2BC205630028151F /* RefugeRestroomsSeed.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E233EFED2BC205630028151F /* RefugeRestroomsSeed.sqlite */; };
+		E233EFF72BC205C60028151F /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E233EFF62BC205C60028151F /* SwiftUIView.swift */; };
+		E233EFF92BC206800028151F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E233EFF82BC206800028151F /* Launch Screen.storyboard */; };
+		E26220D22BC203A900C3C48D /* RefugeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26220D12BC203A900C3C48D /* RefugeApp.swift */; };
+		E26220D42BC203A900C3C48D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26220D32BC203A900C3C48D /* ContentView.swift */; };
+		E26220D62BC203A900C3C48D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26220D52BC203A900C3C48D /* Item.swift */; };
+		E26220D82BC203AA00C3C48D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26220D72BC203AA00C3C48D /* Assets.xcassets */; };
+		E26220DB2BC203AA00C3C48D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26220DA2BC203AA00C3C48D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E26220E12BC203AA00C3C48D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26220C62BC203A900C3C48D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E26220CD2BC203A900C3C48D;
+			remoteInfo = "refuge-ios";
+		};
+		E26220EB2BC203AA00C3C48D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26220C62BC203A900C3C48D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E26220CD2BC203A900C3C48D;
+			remoteInfo = "refuge-ios";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		246BBA90D5FC7E20DE185107 /* Pods-refuge-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-refuge-ios.debug.xcconfig"; path = "Target Support Files/Pods-refuge-ios/Pods-refuge-ios.debug.xcconfig"; sourceTree = "<group>"; };
-		797B1D9123C12F7F00874703 /* RefugeNewRestroomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefugeNewRestroomViewController.h; sourceTree = "<group>"; };
-		797B1D9223C12F9200874703 /* RefugeNewRestroomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefugeNewRestroomViewController.m; sourceTree = "<group>"; };
-		797B1D9823C1352E00874703 /* RefugeAnalyticsService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefugeAnalyticsService.m; sourceTree = "<group>"; };
-		797B1D9A23C1354100874703 /* RefugeAnalyticsService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefugeAnalyticsService.h; sourceTree = "<group>"; };
-		BA7514E444654CEAD5C1F9E2 /* Pods_refuge_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_refuge_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C49E86F7E84AD0EEBC6184ED /* Pods-refuge-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-refuge-ios.release.xcconfig"; path = "Target Support Files/Pods-refuge-ios/Pods-refuge-ios.release.xcconfig"; sourceTree = "<group>"; };
-		CEA23FFD1A84278B0083510F /* RefugeAppState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefugeAppState.h; sourceTree = "<group>"; };
-		CEA23FFE1A84278B0083510F /* RefugeAppState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefugeAppState.m; sourceTree = "<group>"; };
-		CEA2401E1A86F9410083510F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		CEA240271A8702E20083510F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		CED0CB501A82A6D300F7F3D8 /* refuge-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "refuge-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CED0CB541A82A6D400F7F3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CED0CB551A82A6D400F7F3D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CED0CB571A82A6D400F7F3D8 /* RefugeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefugeAppDelegate.h; sourceTree = "<group>"; };
-		CED0CB581A82A6D400F7F3D8 /* RefugeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefugeAppDelegate.m; sourceTree = "<group>"; };
-		CED0CB5B1A82A6D400F7F3D8 /* refuge_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = refuge_ios.xcdatamodel; sourceTree = "<group>"; };
-		CED0CB611A82A6D400F7F3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CED0CB661A82A6D400F7F3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		DC3A1CB41A927F5100445D33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DC45BBDC1B00F02D001B2B52 /* NSDate+Refuge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Refuge.h"; sourceTree = "<group>"; };
-		DC45BBDD1B00F02D001B2B52 /* NSDate+Refuge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Refuge.m"; sourceTree = "<group>"; };
-		DC45BBDE1B00F02D001B2B52 /* NSString+Refuge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Refuge.h"; sourceTree = "<group>"; };
-		DC45BBDF1B00F02D001B2B52 /* NSString+Refuge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Refuge.m"; sourceTree = "<group>"; };
-		DC45BBE01B00F02D001B2B52 /* UIColor+Refuge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Refuge.h"; sourceTree = "<group>"; };
-		DC45BBE11B00F02D001B2B52 /* UIColor+Refuge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Refuge.m"; sourceTree = "<group>"; };
-		DC45BBE21B00F02D001B2B52 /* UIImage+Refuge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Refuge.h"; sourceTree = "<group>"; };
-		DC45BBE31B00F02D001B2B52 /* UIImage+Refuge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Refuge.m"; sourceTree = "<group>"; };
-		DC45BBEB1B00F13E001B2B52 /* RefugeHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefugeHTTPSessionManager.h; sourceTree = "<group>"; };
-		DC45BBEC1B00F13E001B2B52 /* RefugeHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefugeHTTPSessionManager.m; sourceTree = "<group>"; };
-		DC45BBED1B00F13E001B2B52 /* RefugeRestroomCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefugeRestroomCommunicator.h; sourceTree = "<group>"; };
-		DC45BBEE1B00F13E001B2B52 /* RefugeRestroomCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefugeRestroomCommunicator.m; sourceTree = "<group>"; };
-		DC45BBEF1B00F13E001B2B52 /* RefugeRestroomCommunicatorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefugeRestroomCommunicatorDelegate.h; sourceTree = "<group>"; };
-		DC45BBF31B00F1CE001B2B52 /* RefugeRestroomBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefugeRestroomBuilder.h; sourceTree = "<group>"; };
-		DC45BBF41B00F1CE001B2B52 /* RefugeRestroomBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefugeRestroomBuilder.m; sourceTree = "<group>"; };
-		DC45BBF51B00F1CE001B2B52 /* RefugeSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefugeSerialization.h; sourceTree = "<group>"; };
-		DC45BBF61B00F1CE001B2B52 /* RefugeSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefugeSerialization.m; sourceTree = "<group>"; };
-		DC45BBF91B00F23F001B2B52 /* RefugeRestroomManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefugeRestroomManager.h; sourceTree = "<group>"; };
-		DC45BBFA1B00F23F001B2B52 /* RefugeRestroomManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefugeRestroomManager.m; sourceTree = "<group>"; };
-		DC45BBFB1B00F23F001B2B52 /* RefugeRestroomManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefugeRestroomManagerDelegate.h; sourceTree = "<group>"; };
-		DC45BBFD1B00F280001B2B52 /* RefugeDataPeristenceManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefugeDataPeristenceManagerDelegate.h; sourceTree = "<group>"; };
-		DC45BBFE1B00F280001B2B52 /* RefugeDataPersistenceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefugeDataPersistenceManager.h; sourceTree = "<group>"; };
-		DC45BBFF1B00F280001B2B52 /* RefugeDataPersistenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefugeDataPersistenceManager.m; sourceTree = "<group>"; };
-		DC45BC021B00F2C9001B2B52 /* RefugeMapDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefugeMapDelegate.h; sourceTree = "<group>"; };
-		DC45BC071B00F2FA001B2B52 /* RefugeSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefugeSearch.h; sourceTree = "<group>"; };
-		DC45BC081B00F2FA001B2B52 /* RefugeSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefugeSearch.m; sourceTree = "<group>"; };
-		DC45BC2F1B00F4C0001B2B52 /* refuge-banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refuge-banner.png"; sourceTree = "<group>"; };
-		DC45BC311B00F4C0001B2B52 /* refuge-details-accessible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refuge-details-accessible.png"; sourceTree = "<group>"; };
-		DC45BC321B00F4C0001B2B52 /* refuge-details-unisex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refuge-details-unisex.png"; sourceTree = "<group>"; };
-		DC45BC331B00F4C0001B2B52 /* refuge-icon-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refuge-icon-facebook.png"; sourceTree = "<group>"; };
-		DC45BC341B00F4C0001B2B52 /* refuge-icon-github.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refuge-icon-github.png"; sourceTree = "<group>"; };
-		DC45BC351B00F4C0001B2B52 /* refuge-icon-twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refuge-icon-twitter.png"; sourceTree = "<group>"; };
-		DC45BC361B00F4C0001B2B52 /* refuge-map-crosshair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refuge-map-crosshair.png"; sourceTree = "<group>"; };
-		DC45BC371B00F4C0001B2B52 /* refuge-map-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refuge-map-pin.png"; sourceTree = "<group>"; };
-		DC45BC381B00F4C0001B2B52 /* refuge-onboard1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refuge-onboard1.png"; sourceTree = "<group>"; };
-		DC45BC391B00F4C0001B2B52 /* refuge-onboard2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refuge-onboard2.png"; sourceTree = "<group>"; };
-		DC45BC3A1B00F4C0001B2B52 /* refuge-onboard3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refuge-onboard3.png"; sourceTree = "<group>"; };
-		DC45BC3B1B00F4C0001B2B52 /* refuge-onboard4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refuge-onboard4.png"; sourceTree = "<group>"; };
-		DC45BC4A1B00F507001B2B52 /* RefugeMapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefugeMapPin.h; sourceTree = "<group>"; };
-		DC45BC4D1B00F507001B2B52 /* RefugeMapPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefugeMapPlace.m; sourceTree = "<group>"; };
-		DC45BC501B00F53B001B2B52 /* RefugeMapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefugeMapPin.m; sourceTree = "<group>"; };
-		DC45BC521B00F545001B2B52 /* RefugeMapPlace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefugeMapPlace.h; sourceTree = "<group>"; };
-		DC45BC531B00F551001B2B52 /* RefugeMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefugeMap.h; sourceTree = "<group>"; };
-		DC45BC541B00F551001B2B52 /* RefugeMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefugeMap.m; sourceTree = "<group>"; };
-		DC45BC571B00F60D001B2B52 /* RefugeOnboardPage1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefugeOnboardPage1.xib; sourceTree = "<group>"; };
-		DC45BC581B00F60D001B2B52 /* RefugeOnboardPage2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefugeOnboardPage2.xib; sourceTree = "<group>"; };
-		DC45BC591B00F60D001B2B52 /* RefugeOnboardPage3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefugeOnboardPage3.xib; sourceTree = "<group>"; };
-		DC45BC5A1B00F60D001B2B52 /* RefugeOnboardPage4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefugeOnboardPage4.xib; sourceTree = "<group>"; };
-		DC45BC601B00F6A8001B2B52 /* RefugeInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefugeInfoViewController.h; sourceTree = "<group>"; };
-		DC45BC611B00F6A8001B2B52 /* RefugeInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefugeInfoViewController.m; sourceTree = "<group>"; };
-		DC45BC671B00F72C001B2B52 /* RefugeOnboardingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefugeOnboardingViewController.h; sourceTree = "<group>"; };
-		DC45BC681B00F72C001B2B52 /* RefugeOnboardingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefugeOnboardingViewController.m; sourceTree = "<group>"; };
-		DC45BC6A1B00F745001B2B52 /* RefugeMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefugeMapViewController.h; sourceTree = "<group>"; };
-		DC45BC6B1B00F745001B2B52 /* RefugeMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefugeMapViewController.m; sourceTree = "<group>"; };
-		DC45BC6E1B00F78B001B2B52 /* RefugeRestroomDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefugeRestroomDetailsViewController.h; sourceTree = "<group>"; };
-		DC45BC6F1B00F78B001B2B52 /* RefugeRestroomDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefugeRestroomDetailsViewController.m; sourceTree = "<group>"; };
-		DC45BC751B018812001B2B52 /* _clang-format */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "_clang-format"; sourceTree = "<group>"; };
-		DC45BC771B01A110001B2B52 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
-		DC50B7F21BA5D3F500530DC2 /* iOS7-LaunchScreen-568@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS7-LaunchScreen-568@2x.png"; sourceTree = "<group>"; };
-		DC50B7F31BA5D3F500530DC2 /* iOS7-LaunchScreen-568h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS7-LaunchScreen-568h.png"; sourceTree = "<group>"; };
-		DC8354221AABAED3009BEA58 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
-		DC8F394B1A97FC8000A90B13 /* RefugeRestroomsSeed.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = RefugeRestroomsSeed.sqlite; path = ../../RefugeRestroomsSeed.sqlite; sourceTree = "<group>"; };
-		DC8F39B31A980FDE00A90B13 /* RefugeRestroom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefugeRestroom.h; sourceTree = "<group>"; };
-		DC8F39B41A980FDE00A90B13 /* RefugeRestroom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefugeRestroom.m; sourceTree = "<group>"; };
-		DC8F39B51A980FDE00A90B13 /* RefugeRestroomEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefugeRestroomEntity.h; sourceTree = "<group>"; };
-		DC8F39B61A980FDE00A90B13 /* RefugeRestroomEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefugeRestroomEntity.m; sourceTree = "<group>"; };
+		E20CBF1C2BC206FE00E4AD92 /* RefugeUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefugeUITests.swift; sourceTree = "<group>"; };
+		E20CBF1D2BC206FE00E4AD92 /* RefugeUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefugeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E233EFED2BC205630028151F /* RefugeRestroomsSeed.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = RefugeRestroomsSeed.sqlite; sourceTree = "<group>"; };
+		E233EFF62BC205C60028151F /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		E233EFF82BC206800028151F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E26220CE2BC203A900C3C48D /* refuge-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "refuge-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26220D12BC203A900C3C48D /* RefugeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefugeApp.swift; sourceTree = "<group>"; };
+		E26220D32BC203A900C3C48D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E26220D52BC203A900C3C48D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E26220D72BC203AA00C3C48D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E26220DA2BC203AA00C3C48D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E26220E02BC203AA00C3C48D /* refuge-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "refuge-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26220EA2BC203AA00C3C48D /* refuge-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "refuge-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BEA1092BC206D700FE9539 /* RefugeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefugeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CED0CB4D1A82A6D300F7F3D8 /* Frameworks */ = {
+		E26220CB2BC203A900C3C48D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA240281A8702E20083510F /* CoreLocation.framework in Frameworks */,
-				CEA2401F1A86F9410083510F /* MapKit.framework in Frameworks */,
-				2839A4B38A1493314CB0AA06 /* Pods_refuge_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26220DD2BC203AA00C3C48D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26220E72BC203AA00C3C48D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		68FB1F0E5CB3E3A5E8E048A1 /* Frameworks */ = {
+		E20CBF1E2BC206FE00E4AD92 /* RefugeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DC45BC771B01A110001B2B52 /* Crashlytics.framework */,
-				CEA240271A8702E20083510F /* CoreLocation.framework */,
-				DC8354221AABAED3009BEA58 /* Fabric.framework */,
-				CEA2401E1A86F9410083510F /* MapKit.framework */,
-				BA7514E444654CEAD5C1F9E2 /* Pods_refuge_ios.framework */,
+				E20CBF1C2BC206FE00E4AD92 /* RefugeUITests.swift */,
+				E20CBF1D2BC206FE00E4AD92 /* RefugeUITestsLaunchTests.swift */,
 			);
-			name = Frameworks;
+			path = RefugeUITests;
 			sourceTree = "<group>";
 		};
-		797B1D9023C12F7400874703 /* Restroom New */ = {
+		E233EFEC2BC2049A0028151F /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				797B1D9123C12F7F00874703 /* RefugeNewRestroomViewController.h */,
-				797B1D9223C12F9200874703 /* RefugeNewRestroomViewController.m */,
+				E233EFED2BC205630028151F /* RefugeRestroomsSeed.sqlite */,
 			);
-			path = "Restroom New";
+			path = Data;
 			sourceTree = "<group>";
 		};
-		9DAC730BBCB54D00B2C519B3 /* Pods */ = {
+		E233EFEF2BC205680028151F /* App */ = {
 			isa = PBXGroup;
 			children = (
-				246BBA90D5FC7E20DE185107 /* Pods-refuge-ios.debug.xcconfig */,
-				C49E86F7E84AD0EEBC6184ED /* Pods-refuge-ios.release.xcconfig */,
+				E26220D12BC203A900C3C48D /* RefugeApp.swift */,
 			);
-			path = Pods;
+			path = App;
 			sourceTree = "<group>";
 		};
-		CED0CB471A82A6D300F7F3D8 = {
+		E233EFF02BC2056E0028151F /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				CED0CB521A82A6D300F7F3D8 /* refuge-ios */,
-				CED0CB511A82A6D300F7F3D8 /* Products */,
-				68FB1F0E5CB3E3A5E8E048A1 /* Frameworks */,
-				9DAC730BBCB54D00B2C519B3 /* Pods */,
+				E26220D32BC203A900C3C48D /* ContentView.swift */,
 			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
-		CED0CB511A82A6D300F7F3D8 /* Products */ = {
+		E233EFF12BC205750028151F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CED0CB501A82A6D300F7F3D8 /* refuge-ios.app */,
+				E26220D52BC203A900C3C48D /* Item.swift */,
 			);
-			name = Products;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		CED0CB521A82A6D300F7F3D8 /* refuge-ios */ = {
+		E233EFF22BC2057A0028151F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DC45BBD61B00EFD9001B2B52 /* Features */,
-				DC8F39B21A980FDE00A90B13 /* Models */,
-				DC45BC2D1B00F4C0001B2B52 /* Resources */,
-				DC45BBD71B00F02D001B2B52 /* Utilities */,
-				CED0CB571A82A6D400F7F3D8 /* RefugeAppDelegate.h */,
-				CED0CB581A82A6D400F7F3D8 /* RefugeAppDelegate.m */,
-				CEA23FFD1A84278B0083510F /* RefugeAppState.h */,
-				CEA23FFE1A84278B0083510F /* RefugeAppState.m */,
-				DC3A1CB41A927F5100445D33 /* Images.xcassets */,
-				CED0CB651A82A6D400F7F3D8 /* LaunchScreen.xib */,
-				CED0CB601A82A6D400F7F3D8 /* Main.storyboard */,
-				CED0CB5A1A82A6D400F7F3D8 /* refuge_ios.xcdatamodeld */,
-				CED0CB531A82A6D300F7F3D8 /* Supporting Files */,
-			);
-			path = "refuge-ios";
-			sourceTree = "<group>";
-		};
-		CED0CB531A82A6D300F7F3D8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DC45BC751B018812001B2B52 /* _clang-format */,
-				CED0CB541A82A6D400F7F3D8 /* Info.plist */,
-				CED0CB551A82A6D400F7F3D8 /* main.m */,
-				DC8F394B1A97FC8000A90B13 /* RefugeRestroomsSeed.sqlite */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DC45BBD61B00EFD9001B2B52 /* Features */ = {
-			isa = PBXGroup;
-			children = (
-				DC45BC5F1B00F63E001B2B52 /* Info */,
-				DC45BC011B00F2C9001B2B52 /* Map */,
-				DC45BC561B00F5E7001B2B52 /* Onboarding */,
-				DC45BC6D1B00F778001B2B52 /* Restroom Details */,
-				797B1D9023C12F7400874703 /* Restroom New */,
-				DC45BC061B00F2FA001B2B52 /* Search */,
-			);
-			path = Features;
-			sourceTree = "<group>";
-		};
-		DC45BBD71B00F02D001B2B52 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				797B1D9A23C1354100874703 /* RefugeAnalyticsService.h */,
-				797B1D9823C1352E00874703 /* RefugeAnalyticsService.m */,
-				DC45BBDC1B00F02D001B2B52 /* NSDate+Refuge.h */,
-				DC45BBDD1B00F02D001B2B52 /* NSDate+Refuge.m */,
-				DC45BBDE1B00F02D001B2B52 /* NSString+Refuge.h */,
-				DC45BBDF1B00F02D001B2B52 /* NSString+Refuge.m */,
-				DC45BBE01B00F02D001B2B52 /* UIColor+Refuge.h */,
-				DC45BBE11B00F02D001B2B52 /* UIColor+Refuge.m */,
-				DC45BBE21B00F02D001B2B52 /* UIImage+Refuge.h */,
-				DC45BBE31B00F02D001B2B52 /* UIImage+Refuge.m */,
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
-		DC45BBEA1B00F0BA001B2B52 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				DC45BBEB1B00F13E001B2B52 /* RefugeHTTPSessionManager.h */,
-				DC45BBEC1B00F13E001B2B52 /* RefugeHTTPSessionManager.m */,
-				DC45BBED1B00F13E001B2B52 /* RefugeRestroomCommunicator.h */,
-				DC45BBEE1B00F13E001B2B52 /* RefugeRestroomCommunicator.m */,
-				DC45BBEF1B00F13E001B2B52 /* RefugeRestroomCommunicatorDelegate.h */,
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
-		DC45BBF21B00F1AE001B2B52 /* Deserialization */ = {
-			isa = PBXGroup;
-			children = (
-				DC45BBF31B00F1CE001B2B52 /* RefugeRestroomBuilder.h */,
-				DC45BBF41B00F1CE001B2B52 /* RefugeRestroomBuilder.m */,
-				DC45BBF51B00F1CE001B2B52 /* RefugeSerialization.h */,
-				DC45BBF61B00F1CE001B2B52 /* RefugeSerialization.m */,
-			);
-			path = Deserialization;
-			sourceTree = "<group>";
-		};
-		DC45BC011B00F2C9001B2B52 /* Map */ = {
-			isa = PBXGroup;
-			children = (
-				DC45BC531B00F551001B2B52 /* RefugeMap.h */,
-				DC45BC541B00F551001B2B52 /* RefugeMap.m */,
-				DC45BC021B00F2C9001B2B52 /* RefugeMapDelegate.h */,
-				DC45BC4A1B00F507001B2B52 /* RefugeMapPin.h */,
-				DC45BC501B00F53B001B2B52 /* RefugeMapPin.m */,
-				DC45BC521B00F545001B2B52 /* RefugeMapPlace.h */,
-				DC45BC4D1B00F507001B2B52 /* RefugeMapPlace.m */,
-				DC45BC6A1B00F745001B2B52 /* RefugeMapViewController.h */,
-				DC45BC6B1B00F745001B2B52 /* RefugeMapViewController.m */,
-			);
-			path = Map;
-			sourceTree = "<group>";
-		};
-		DC45BC061B00F2FA001B2B52 /* Search */ = {
-			isa = PBXGroup;
-			children = (
-				DC45BC071B00F2FA001B2B52 /* RefugeSearch.h */,
-				DC45BC081B00F2FA001B2B52 /* RefugeSearch.m */,
-			);
-			path = Search;
-			sourceTree = "<group>";
-		};
-		DC45BC2D1B00F4C0001B2B52 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				DC50B7F21BA5D3F500530DC2 /* iOS7-LaunchScreen-568@2x.png */,
-				DC50B7F31BA5D3F500530DC2 /* iOS7-LaunchScreen-568h.png */,
-				DC45BC2F1B00F4C0001B2B52 /* refuge-banner.png */,
-				DC45BC311B00F4C0001B2B52 /* refuge-details-accessible.png */,
-				DC45BC321B00F4C0001B2B52 /* refuge-details-unisex.png */,
-				DC45BC331B00F4C0001B2B52 /* refuge-icon-facebook.png */,
-				DC45BC341B00F4C0001B2B52 /* refuge-icon-github.png */,
-				DC45BC351B00F4C0001B2B52 /* refuge-icon-twitter.png */,
-				DC45BC361B00F4C0001B2B52 /* refuge-map-crosshair.png */,
-				DC45BC371B00F4C0001B2B52 /* refuge-map-pin.png */,
-				DC45BC381B00F4C0001B2B52 /* refuge-onboard1.png */,
-				DC45BC391B00F4C0001B2B52 /* refuge-onboard2.png */,
-				DC45BC3A1B00F4C0001B2B52 /* refuge-onboard3.png */,
-				DC45BC3B1B00F4C0001B2B52 /* refuge-onboard4.png */,
+				E26220D72BC203AA00C3C48D /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		DC45BC561B00F5E7001B2B52 /* Onboarding */ = {
+		E233EFF32BC205870028151F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DC45BC671B00F72C001B2B52 /* RefugeOnboardingViewController.h */,
-				DC45BC681B00F72C001B2B52 /* RefugeOnboardingViewController.m */,
-				DC45BC571B00F60D001B2B52 /* RefugeOnboardPage1.xib */,
-				DC45BC581B00F60D001B2B52 /* RefugeOnboardPage2.xib */,
-				DC45BC591B00F60D001B2B52 /* RefugeOnboardPage3.xib */,
-				DC45BC5A1B00F60D001B2B52 /* RefugeOnboardPage4.xib */,
+				E233EFF62BC205C60028151F /* SwiftUIView.swift */,
 			);
-			path = Onboarding;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		DC45BC5F1B00F63E001B2B52 /* Info */ = {
+		E26220C52BC203A900C3C48D = {
 			isa = PBXGroup;
 			children = (
-				DC45BC601B00F6A8001B2B52 /* RefugeInfoViewController.h */,
-				DC45BC611B00F6A8001B2B52 /* RefugeInfoViewController.m */,
+				E26220D02BC203A900C3C48D /* Refuge */,
+				E20CBF1E2BC206FE00E4AD92 /* RefugeUITests */,
+				E2BEA10A2BC206D700FE9539 /* RefugeTests */,
+				E26220CF2BC203A900C3C48D /* Products */,
 			);
-			path = Info;
 			sourceTree = "<group>";
 		};
-		DC45BC6D1B00F778001B2B52 /* Restroom Details */ = {
+		E26220CF2BC203A900C3C48D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC45BC6E1B00F78B001B2B52 /* RefugeRestroomDetailsViewController.h */,
-				DC45BC6F1B00F78B001B2B52 /* RefugeRestroomDetailsViewController.m */,
+				E26220CE2BC203A900C3C48D /* refuge-ios.app */,
+				E26220E02BC203AA00C3C48D /* refuge-iosTests.xctest */,
+				E26220EA2BC203AA00C3C48D /* refuge-iosUITests.xctest */,
 			);
-			path = "Restroom Details";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		DC8F39B21A980FDE00A90B13 /* Models */ = {
+		E26220D02BC203A900C3C48D /* Refuge */ = {
 			isa = PBXGroup;
 			children = (
-				DC45BBF21B00F1AE001B2B52 /* Deserialization */,
-				DC45BBEA1B00F0BA001B2B52 /* Networking */,
-				DC45BBFE1B00F280001B2B52 /* RefugeDataPersistenceManager.h */,
-				DC45BBFF1B00F280001B2B52 /* RefugeDataPersistenceManager.m */,
-				DC45BBFD1B00F280001B2B52 /* RefugeDataPeristenceManagerDelegate.h */,
-				DC45BBF91B00F23F001B2B52 /* RefugeRestroomManager.h */,
-				DC45BBFA1B00F23F001B2B52 /* RefugeRestroomManager.m */,
-				DC45BBFB1B00F23F001B2B52 /* RefugeRestroomManagerDelegate.h */,
-				DC8F39B31A980FDE00A90B13 /* RefugeRestroom.h */,
-				DC8F39B41A980FDE00A90B13 /* RefugeRestroom.m */,
-				DC8F39B51A980FDE00A90B13 /* RefugeRestroomEntity.h */,
-				DC8F39B61A980FDE00A90B13 /* RefugeRestroomEntity.m */,
+				E233EFEF2BC205680028151F /* App */,
+				E233EFF02BC2056E0028151F /* Screens */,
+				E233EFF12BC205750028151F /* Models */,
+				E233EFF32BC205870028151F /* Views */,
+				E233EFEC2BC2049A0028151F /* Data */,
+				E233EFF22BC2057A0028151F /* Resources */,
+				E26220D92BC203AA00C3C48D /* Preview Content */,
+				E233EFF82BC206800028151F /* Launch Screen.storyboard */,
 			);
-			path = Models;
+			path = Refuge;
+			sourceTree = "<group>";
+		};
+		E26220D92BC203AA00C3C48D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E26220DA2BC203AA00C3C48D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2BEA10A2BC206D700FE9539 /* RefugeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2BEA1092BC206D700FE9539 /* RefugeTests.swift */,
+			);
+			path = RefugeTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CED0CB4F1A82A6D300F7F3D8 /* refuge-ios */ = {
+		E26220CD2BC203A900C3C48D /* refuge-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CED0CB761A82A6D500F7F3D8 /* Build configuration list for PBXNativeTarget "refuge-ios" */;
+			buildConfigurationList = E26220F42BC203AA00C3C48D /* Build configuration list for PBXNativeTarget "refuge-ios" */;
 			buildPhases = (
-				5D3A2D3910A40FAEA367574F /* [CP] Check Pods Manifest.lock */,
-				CED0CB4C1A82A6D300F7F3D8 /* Sources */,
-				CED0CB4D1A82A6D300F7F3D8 /* Frameworks */,
-				CED0CB4E1A82A6D300F7F3D8 /* Resources */,
-				53832143D6CA6036ADDBD9AE /* [CP] Embed Pods Frameworks */,
+				E26220CA2BC203A900C3C48D /* Sources */,
+				E26220CB2BC203A900C3C48D /* Frameworks */,
+				E26220CC2BC203A900C3C48D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -411,355 +204,465 @@
 			);
 			name = "refuge-ios";
 			productName = "refuge-ios";
-			productReference = CED0CB501A82A6D300F7F3D8 /* refuge-ios.app */;
+			productReference = E26220CE2BC203A900C3C48D /* refuge-ios.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E26220DF2BC203AA00C3C48D /* refuge-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26220F72BC203AA00C3C48D /* Build configuration list for PBXNativeTarget "refuge-iosTests" */;
+			buildPhases = (
+				E26220DC2BC203AA00C3C48D /* Sources */,
+				E26220DD2BC203AA00C3C48D /* Frameworks */,
+				E26220DE2BC203AA00C3C48D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26220E22BC203AA00C3C48D /* PBXTargetDependency */,
+			);
+			name = "refuge-iosTests";
+			productName = "refuge-iosTests";
+			productReference = E26220E02BC203AA00C3C48D /* refuge-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E26220E92BC203AA00C3C48D /* refuge-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26220FA2BC203AA00C3C48D /* Build configuration list for PBXNativeTarget "refuge-iosUITests" */;
+			buildPhases = (
+				E26220E62BC203AA00C3C48D /* Sources */,
+				E26220E72BC203AA00C3C48D /* Frameworks */,
+				E26220E82BC203AA00C3C48D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26220EC2BC203AA00C3C48D /* PBXTargetDependency */,
+			);
+			name = "refuge-iosUITests";
+			productName = "refuge-iosUITests";
+			productReference = E26220EA2BC203AA00C3C48D /* refuge-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CED0CB481A82A6D300F7F3D8 /* Project object */ = {
+		E26220C62BC203A900C3C48D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = Refuge;
-				LastUpgradeCheck = 0610;
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
 				ORGANIZATIONNAME = "Refuge Restrooms";
 				TargetAttributes = {
-					CED0CB4F1A82A6D300F7F3D8 = {
-						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = G58XPAD97M;
+					E26220CD2BC203A900C3C48D = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					E26220DF2BC203AA00C3C48D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E26220CD2BC203A900C3C48D;
+					};
+					E26220E92BC203AA00C3C48D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E26220CD2BC203A900C3C48D;
 					};
 				};
 			};
-			buildConfigurationList = CED0CB4B1A82A6D300F7F3D8 /* Build configuration list for PBXProject "refuge-ios" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = E26220C92BC203A900C3C48D /* Build configuration list for PBXProject "refuge-ios" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
-			mainGroup = CED0CB471A82A6D300F7F3D8;
-			productRefGroup = CED0CB511A82A6D300F7F3D8 /* Products */;
+			mainGroup = E26220C52BC203A900C3C48D;
+			productRefGroup = E26220CF2BC203A900C3C48D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CED0CB4F1A82A6D300F7F3D8 /* refuge-ios */,
+				E26220CD2BC203A900C3C48D /* refuge-ios */,
+				E26220DF2BC203AA00C3C48D /* refuge-iosTests */,
+				E26220E92BC203AA00C3C48D /* refuge-iosUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CED0CB4E1A82A6D300F7F3D8 /* Resources */ = {
+		E26220CC2BC203A900C3C48D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC45BC491B00F4C0001B2B52 /* refuge-onboard4.png in Resources */,
-				DC45BC5D1B00F60D001B2B52 /* RefugeOnboardPage3.xib in Resources */,
-				DC50B7F51BA5D3F500530DC2 /* iOS7-LaunchScreen-568h.png in Resources */,
-				DC45BC461B00F4C0001B2B52 /* refuge-onboard1.png in Resources */,
-				DC45BC421B00F4C0001B2B52 /* refuge-icon-github.png in Resources */,
-				DC45BC441B00F4C0001B2B52 /* refuge-map-crosshair.png in Resources */,
-				DC45BC3F1B00F4C0001B2B52 /* refuge-details-accessible.png in Resources */,
-				DC3A1CB51A927F5100445D33 /* Images.xcassets in Resources */,
-				DC45BC5E1B00F60D001B2B52 /* RefugeOnboardPage4.xib in Resources */,
-				DC8F394C1A97FC8100A90B13 /* RefugeRestroomsSeed.sqlite in Resources */,
-				DC45BC451B00F4C0001B2B52 /* refuge-map-pin.png in Resources */,
-				DC45BC401B00F4C0001B2B52 /* refuge-details-unisex.png in Resources */,
-				DC45BC3D1B00F4C0001B2B52 /* refuge-banner.png in Resources */,
-				CED0CB621A82A6D400F7F3D8 /* Main.storyboard in Resources */,
-				CED0CB671A82A6D400F7F3D8 /* LaunchScreen.xib in Resources */,
-				DC45BC761B018812001B2B52 /* _clang-format in Resources */,
-				DC45BC411B00F4C0001B2B52 /* refuge-icon-facebook.png in Resources */,
-				DC45BC5C1B00F60D001B2B52 /* RefugeOnboardPage2.xib in Resources */,
-				DC45BC5B1B00F60D001B2B52 /* RefugeOnboardPage1.xib in Resources */,
-				DC50B7F41BA5D3F500530DC2 /* iOS7-LaunchScreen-568@2x.png in Resources */,
-				DC45BC471B00F4C0001B2B52 /* refuge-onboard2.png in Resources */,
-				DC45BC481B00F4C0001B2B52 /* refuge-onboard3.png in Resources */,
-				DC45BC431B00F4C0001B2B52 /* refuge-icon-twitter.png in Resources */,
+				E233EFEE2BC205630028151F /* RefugeRestroomsSeed.sqlite in Resources */,
+				E26220DB2BC203AA00C3C48D /* Preview Assets.xcassets in Resources */,
+				E233EFF92BC206800028151F /* Launch Screen.storyboard in Resources */,
+				E26220D82BC203AA00C3C48D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26220DE2BC203AA00C3C48D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26220E82BC203AA00C3C48D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		53832143D6CA6036ADDBD9AE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-refuge-ios/Pods-refuge-ios-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ADClusterMapView/ADClusterMapView.framework",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/EAIntroView/EAIntroView.framework",
-				"${BUILT_PRODUCTS_DIR}/HNKGooglePlacesAutocomplete/HNKGooglePlacesAutocomplete.framework",
-				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
-				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ADClusterMapView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EAIntroView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HNKGooglePlacesAutocomplete.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantle.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-refuge-ios/Pods-refuge-ios-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5D3A2D3910A40FAEA367574F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-refuge-ios-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		CED0CB4C1A82A6D300F7F3D8 /* Sources */ = {
+		E26220CA2BC203A900C3C48D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC45BC511B00F53B001B2B52 /* RefugeMapPin.m in Sources */,
-				CED0CB591A82A6D400F7F3D8 /* RefugeAppDelegate.m in Sources */,
-				DC45BBE71B00F02D001B2B52 /* NSString+Refuge.m in Sources */,
-				DC45BBE81B00F02D001B2B52 /* UIColor+Refuge.m in Sources */,
-				DC45BC4F1B00F507001B2B52 /* RefugeMapPlace.m in Sources */,
-				DC45BC621B00F6A8001B2B52 /* RefugeInfoViewController.m in Sources */,
-				DC45BBF01B00F13E001B2B52 /* RefugeHTTPSessionManager.m in Sources */,
-				DC8F39B71A980FDE00A90B13 /* RefugeRestroom.m in Sources */,
-				CED0CB561A82A6D400F7F3D8 /* main.m in Sources */,
-				DC45BC691B00F72C001B2B52 /* RefugeOnboardingViewController.m in Sources */,
-				DC45BBF81B00F1CE001B2B52 /* RefugeSerialization.m in Sources */,
-				DC45BBF71B00F1CE001B2B52 /* RefugeRestroomBuilder.m in Sources */,
-				DC45BC551B00F551001B2B52 /* RefugeMap.m in Sources */,
-				DC45BBF11B00F13E001B2B52 /* RefugeRestroomCommunicator.m in Sources */,
-				DC45BC6C1B00F745001B2B52 /* RefugeMapViewController.m in Sources */,
-				DC45BBE61B00F02D001B2B52 /* NSDate+Refuge.m in Sources */,
-				DC45BBE91B00F02D001B2B52 /* UIImage+Refuge.m in Sources */,
-				DC45BBFC1B00F23F001B2B52 /* RefugeRestroomManager.m in Sources */,
-				DC8F39B91A980FDE00A90B13 /* RefugeRestroomEntity.m in Sources */,
-				DC45BC701B00F78B001B2B52 /* RefugeRestroomDetailsViewController.m in Sources */,
-				DC45BC001B00F280001B2B52 /* RefugeDataPersistenceManager.m in Sources */,
-				CED0CB5C1A82A6D400F7F3D8 /* refuge_ios.xcdatamodeld in Sources */,
-				797B1D9923C1352E00874703 /* RefugeAnalyticsService.m in Sources */,
-				DC45BC091B00F2FA001B2B52 /* RefugeSearch.m in Sources */,
-				CEA23FFF1A84278B0083510F /* RefugeAppState.m in Sources */,
-				797B1D9323C12F9200874703 /* RefugeNewRestroomViewController.m in Sources */,
+				E26220D42BC203A900C3C48D /* ContentView.swift in Sources */,
+				E26220D62BC203A900C3C48D /* Item.swift in Sources */,
+				E233EFF72BC205C60028151F /* SwiftUIView.swift in Sources */,
+				E26220D22BC203A900C3C48D /* RefugeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26220DC2BC203AA00C3C48D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20CBF212BC2072500E4AD92 /* RefugeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26220E62BC203AA00C3C48D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20CBF202BC206FE00E4AD92 /* RefugeUITestsLaunchTests.swift in Sources */,
+				E20CBF1F2BC206FE00E4AD92 /* RefugeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		CED0CB601A82A6D400F7F3D8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CED0CB611A82A6D400F7F3D8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		E26220E22BC203AA00C3C48D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E26220CD2BC203A900C3C48D /* refuge-ios */;
+			targetProxy = E26220E12BC203AA00C3C48D /* PBXContainerItemProxy */;
 		};
-		CED0CB651A82A6D400F7F3D8 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CED0CB661A82A6D400F7F3D8 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
+		E26220EC2BC203AA00C3C48D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E26220CD2BC203A900C3C48D /* refuge-ios */;
+			targetProxy = E26220EB2BC203AA00C3C48D /* PBXContainerItemProxy */;
 		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		CED0CB741A82A6D500F7F3D8 /* Debug */ = {
+		E26220F22BC203AA00C3C48D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		CED0CB751A82A6D500F7F3D8 /* Release */ = {
+		E26220F32BC203AA00C3C48D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		CED0CB771A82A6D500F7F3D8 /* Debug */ = {
+		E26220F52BC203AA00C3C48D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 246BBA90D5FC7E20DE185107 /* Pods-refuge-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 2.1.0.1;
-				DEVELOPMENT_TEAM = G58XPAD97M;
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Refuge/Preview Content\"";
+				DEVELOPMENT_TEAM = N3HG6C68EY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "refuge-ios-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Refuge;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
+					"@executable_path/Frameworks",
 				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"COCOAPODS=1",
-					"MIXPANEL_DEBUG=1",
-					"MIXPANEL_ERROR=1",
-				);
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				INFOPLIST_FILE = "refuge-ios/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 3.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "milek.pawel.refuge-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CED0CB781A82A6D500F7F3D8 /* Release */ = {
+		E26220F62BC203AA00C3C48D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C49E86F7E84AD0EEBC6184ED /* Pods-refuge-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 2.1.0.1;
-				DEVELOPMENT_TEAM = G58XPAD97M;
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Refuge/Preview Content\"";
+				DEVELOPMENT_TEAM = N3HG6C68EY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "refuge-ios-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Refuge;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
+					"@executable_path/Frameworks",
 				);
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				INFOPLIST_FILE = "refuge-ios/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 3.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "milek.pawel.refuge-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E26220F82BC203AA00C3C48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3HG6C68EY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "milek.pawel.refuge-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/refuge-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/refuge-ios";
+			};
+			name = Debug;
+		};
+		E26220F92BC203AA00C3C48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3HG6C68EY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "milek.pawel.refuge-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/refuge-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/refuge-ios";
+			};
+			name = Release;
+		};
+		E26220FB2BC203AA00C3C48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3HG6C68EY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "milek.pawel.refuge-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "refuge-ios";
+			};
+			name = Debug;
+		};
+		E26220FC2BC203AA00C3C48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3HG6C68EY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "milek.pawel.refuge-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "refuge-ios";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CED0CB4B1A82A6D300F7F3D8 /* Build configuration list for PBXProject "refuge-ios" */ = {
+		E26220C92BC203A900C3C48D /* Build configuration list for PBXProject "refuge-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CED0CB741A82A6D500F7F3D8 /* Debug */,
-				CED0CB751A82A6D500F7F3D8 /* Release */,
+				E26220F22BC203AA00C3C48D /* Debug */,
+				E26220F32BC203AA00C3C48D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CED0CB761A82A6D500F7F3D8 /* Build configuration list for PBXNativeTarget "refuge-ios" */ = {
+		E26220F42BC203AA00C3C48D /* Build configuration list for PBXNativeTarget "refuge-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CED0CB771A82A6D500F7F3D8 /* Debug */,
-				CED0CB781A82A6D500F7F3D8 /* Release */,
+				E26220F52BC203AA00C3C48D /* Debug */,
+				E26220F62BC203AA00C3C48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26220F72BC203AA00C3C48D /* Build configuration list for PBXNativeTarget "refuge-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26220F82BC203AA00C3C48D /* Debug */,
+				E26220F92BC203AA00C3C48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26220FA2BC203AA00C3C48D /* Build configuration list for PBXNativeTarget "refuge-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26220FB2BC203AA00C3C48D /* Debug */,
+				E26220FC2BC203AA00C3C48D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		CED0CB5A1A82A6D400F7F3D8 /* refuge_ios.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				CED0CB5B1A82A6D400F7F3D8 /* refuge_ios.xcdatamodel */,
-			);
-			currentVersion = CED0CB5B1A82A6D400F7F3D8 /* refuge_ios.xcdatamodel */;
-			path = refuge_ios.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = CED0CB481A82A6D300F7F3D8 /* Project object */;
+	rootObject = E26220C62BC203A900C3C48D /* Project object */;
 }
