@@ -11,13 +11,16 @@
 		E20CBF202BC206FE00E4AD92 /* RefugeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CBF1D2BC206FE00E4AD92 /* RefugeUITestsLaunchTests.swift */; };
 		E20CBF212BC2072500E4AD92 /* RefugeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BEA1092BC206D700FE9539 /* RefugeTests.swift */; };
 		E233EFEE2BC205630028151F /* RefugeRestroomsSeed.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E233EFED2BC205630028151F /* RefugeRestroomsSeed.sqlite */; };
-		E233EFF72BC205C60028151F /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E233EFF62BC205C60028151F /* SwiftUIView.swift */; };
 		E233EFF92BC206800028151F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E233EFF82BC206800028151F /* Launch Screen.storyboard */; };
 		E26220D22BC203A900C3C48D /* RefugeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26220D12BC203A900C3C48D /* RefugeApp.swift */; };
 		E26220D42BC203A900C3C48D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26220D32BC203A900C3C48D /* ContentView.swift */; };
 		E26220D62BC203A900C3C48D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26220D52BC203A900C3C48D /* Item.swift */; };
 		E26220D82BC203AA00C3C48D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26220D72BC203AA00C3C48D /* Assets.xcassets */; };
 		E26220DB2BC203AA00C3C48D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26220DA2BC203AA00C3C48D /* Preview Assets.xcassets */; };
+		E2E4BA982C180DDD00734382 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = E2E4BA972C180DDD00734382 /* ComposableArchitecture */; };
+		E2E4BA9C2C18117100734382 /* HomeMapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E4BA9B2C18117100734382 /* HomeMapScreen.swift */; };
+		E2E4BA9F2C1811B100734382 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E4BA9E2C1811B100734382 /* Router.swift */; };
+		E2EF17DA2BF9804600C0D83C /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = E2EF17D92BF9804600C0D83C /* CHANGELOG.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +44,6 @@
 		E20CBF1C2BC206FE00E4AD92 /* RefugeUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefugeUITests.swift; sourceTree = "<group>"; };
 		E20CBF1D2BC206FE00E4AD92 /* RefugeUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefugeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E233EFED2BC205630028151F /* RefugeRestroomsSeed.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = RefugeRestroomsSeed.sqlite; sourceTree = "<group>"; };
-		E233EFF62BC205C60028151F /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		E233EFF82BC206800028151F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		E26220CE2BC203A900C3C48D /* refuge-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "refuge-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26220D12BC203A900C3C48D /* RefugeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefugeApp.swift; sourceTree = "<group>"; };
@@ -52,6 +54,9 @@
 		E26220E02BC203AA00C3C48D /* refuge-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "refuge-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26220EA2BC203AA00C3C48D /* refuge-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "refuge-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BEA1092BC206D700FE9539 /* RefugeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefugeTests.swift; sourceTree = "<group>"; };
+		E2E4BA9B2C18117100734382 /* HomeMapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMapScreen.swift; sourceTree = "<group>"; };
+		E2E4BA9E2C1811B100734382 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		E2EF17D92BF9804600C0D83C /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E4BA982C180DDD00734382 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				E26220D32BC203A900C3C48D /* ContentView.swift */,
+				E2E4BA9B2C18117100734382 /* HomeMapScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -131,7 +138,6 @@
 		E233EFF32BC205870028151F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E233EFF62BC205C60028151F /* SwiftUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -142,6 +148,7 @@
 				E26220D02BC203A900C3C48D /* Refuge */,
 				E20CBF1E2BC206FE00E4AD92 /* RefugeUITests */,
 				E2BEA10A2BC206D700FE9539 /* RefugeTests */,
+				E2EF17D92BF9804600C0D83C /* CHANGELOG.md */,
 				E26220CF2BC203A900C3C48D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -159,6 +166,7 @@
 		E26220D02BC203A900C3C48D /* Refuge */ = {
 			isa = PBXGroup;
 			children = (
+				E2E4BA9D2C1811A000734382 /* Navigation */,
 				E233EFEF2BC205680028151F /* App */,
 				E233EFF02BC2056E0028151F /* Screens */,
 				E233EFF12BC205750028151F /* Models */,
@@ -187,6 +195,14 @@
 			path = RefugeTests;
 			sourceTree = "<group>";
 		};
+		E2E4BA9D2C1811A000734382 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E2E4BA9E2C1811B100734382 /* Router.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,12 +213,16 @@
 				E26220CA2BC203A900C3C48D /* Sources */,
 				E26220CB2BC203A900C3C48D /* Frameworks */,
 				E26220CC2BC203A900C3C48D /* Resources */,
+				E2E4BA9A2C180E9D00734382 /* Swiftlint Script */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "refuge-ios";
+			packageProductDependencies = (
+				E2E4BA972C180DDD00734382 /* ComposableArchitecture */,
+			);
 			productName = "refuge-ios";
 			productReference = E26220CE2BC203A900C3C48D /* refuge-ios.app */;
 			productType = "com.apple.product-type.application";
@@ -276,6 +296,10 @@
 				Base,
 			);
 			mainGroup = E26220C52BC203A900C3C48D;
+			packageReferences = (
+				E2E4BA962C180DDD00734382 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				E2E4BA992C180E2900734382 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+			);
 			productRefGroup = E26220CF2BC203A900C3C48D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -293,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E233EFEE2BC205630028151F /* RefugeRestroomsSeed.sqlite in Resources */,
+				E2EF17DA2BF9804600C0D83C /* CHANGELOG.md in Resources */,
 				E26220DB2BC203AA00C3C48D /* Preview Assets.xcassets in Resources */,
 				E233EFF92BC206800028151F /* Launch Screen.storyboard in Resources */,
 				E26220D82BC203AA00C3C48D /* Assets.xcassets in Resources */,
@@ -315,14 +340,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E2E4BA9A2C180E9D00734382 /* Swiftlint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swiftlint Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E26220CA2BC203A900C3C48D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E26220D42BC203A900C3C48D /* ContentView.swift in Sources */,
+				E2E4BA9C2C18117100734382 /* HomeMapScreen.swift in Sources */,
+				E2E4BA9F2C1811B100734382 /* Router.swift in Sources */,
 				E26220D62BC203A900C3C48D /* Item.swift in Sources */,
-				E233EFF72BC205C60028151F /* SwiftUIView.swift in Sources */,
 				E26220D22BC203A900C3C48D /* RefugeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,6 +537,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Refuge/Preview Content\"";
 				DEVELOPMENT_TEAM = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "refuge-ios-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Refuge;
@@ -522,6 +571,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Refuge/Preview Content\"";
 				DEVELOPMENT_TEAM = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "refuge-ios-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Refuge;
@@ -663,6 +713,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E2E4BA962C180DDD00734382 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.11.0;
+			};
+		};
+		E2E4BA992C180E2900734382 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.55.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E2E4BA972C180DDD00734382 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2E4BA962C180DDD00734382 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E26220C62BC203A900C3C48D /* Project object */;
 }

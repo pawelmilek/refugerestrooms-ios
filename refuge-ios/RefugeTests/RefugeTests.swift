@@ -4,6 +4,7 @@
 //
 //  Created by Pawel Milek on 4/6/24.
 //
+// swiftlint:disable type_name
 
 import XCTest
 @testable import refuge_ios
